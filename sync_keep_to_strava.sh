@@ -2,4 +2,4 @@
  set -a
 source .env
 set +a
-python run_page/keep_to_strava_sync.py ${keep_mobile} ${keep_password} ${client_id} ${client_secret} ${strava_refresh_token} --sync-types running
+python run_page/keep_to_strava_sync.py ${KEEP_MOBILE} ${KEEP_PASSWORD} ${CLIENT_ID} ${CLIENT_SECRET} ${STRAVA_REFRESH_TOKEN} --sync-types running
